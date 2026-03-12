@@ -1,0 +1,38 @@
+14:33:38.149 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message.... 
+14:33:39.014 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Finished TC001_AccountRegistrationTest ****
+14:33:41.177 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** Started TC002_LoginTest ***
+14:33:45.463 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** Logged to My account ***
+14:36:30.854 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"
+14:36:33.760 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+14:36:34.286 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+14:36:34.865 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+14:36:34.866 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+16:47:26.078 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"
+16:48:02.573 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"
+16:48:06.181 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+16:48:06.373 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+16:48:06.938 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+16:48:06.941 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+16:48:21.672 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message.... 
+16:48:22.285 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Finished TC001_AccountRegistrationTest ****
+16:48:24.096 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** Started TC002_LoginTest ***
+16:48:28.128 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** Logged to My account ***
+16:50:24.127 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"
+16:50:26.695 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+16:50:26.854 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+16:50:27.347 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+16:50:27.348 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+16:50:41.925 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message.... 
+16:50:42.446 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Finished TC001_AccountRegistrationTest ****
+16:50:49.829 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** Started TC002_LoginTest ***
+16:50:53.909 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** Logged to My account ***
+16:50:58.970 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest  **** 
+17:04:07.590 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"
+17:04:10.612 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+17:04:10.762 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+17:04:11.224 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+17:04:11.228 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+13:45:05.313 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"
+13:45:05.976 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml
+
