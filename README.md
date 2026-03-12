@@ -1,0 +1,1 @@
+A scalable, maintainable hybrid test automation framework for end-to-end testing of the OpenCart web application. Built using Selenium WebDriver + Java with the Page Object Model (POM) design pattern, managed via TestNG, and reporting via Extent Reports.
