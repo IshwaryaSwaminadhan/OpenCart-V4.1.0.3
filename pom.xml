@@ -31,7 +31,7 @@
   
   <dependencies>
 
-<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java sampleje  -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
