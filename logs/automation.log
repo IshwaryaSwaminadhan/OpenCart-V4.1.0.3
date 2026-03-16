@@ -36,3 +36,4 @@
 13:45:05.976 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml
 
+12:57:26.819 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\Master.xml"

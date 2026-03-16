@@ -45,6 +45,8 @@ import testBase.BaseClass;
 			
 			logger.info("Validating Expected Message.... ");
 			String confmsg=regpage.msgConfirmation();
+			
+			Thread.sleep(5000);
 			if(confmsg.equals("Your Account Has Been Created!")) {
 				
 				Assert.assertTrue(true);	
