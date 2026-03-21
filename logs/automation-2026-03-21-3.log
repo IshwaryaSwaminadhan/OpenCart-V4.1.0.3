@@ -1,0 +1,45 @@
+12:48:15.802 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml"
+12:48:19.276 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:48:19.276 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:48:19.480 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:48:19.584 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:48:23.738 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:48:23.956 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:48:24.461 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+12:48:24.470 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+12:49:34.791 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml"
+12:49:35.076 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml
+
+12:49:37.587 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:49:37.715 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:49:38.259 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+12:49:38.261 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+12:49:52.776 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message.... 
+12:50:01.014 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Finished TC001_AccountRegistrationTest ****
+12:50:20.092 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml"
+12:50:22.920 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:50:23.657 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:50:24.439 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+12:50:24.441 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+12:50:39.208 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message.... 
+12:50:47.245 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Finished TC001_AccountRegistrationTest ****
+12:51:15.432 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml"
+12:51:18.381 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:51:18.599 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:51:19.160 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+12:51:19.162 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+12:51:23.345 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+12:51:23.536 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+12:51:24.032 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register
+12:51:24.033 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details....
+13:20:15.021 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml"
+13:20:15.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\src\test\java\testCases\crossbrowsingtetsing.xml
+
+13:20:20.142 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+13:20:20.140 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+13:20:20.504 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+13:20:20.648 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account
+13:20:27.010 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******Starting TC001_AccountRegistrationTest ****
+13:20:27.172 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my Account

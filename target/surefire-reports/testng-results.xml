@@ -1,19 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-08T17:04:26 IST" name="Suite" finished-at="2026-03-08T17:04:26 IST" duration-ms="0">
+  <suite started-at="2026-03-21T14:03:10 IST" name="Suite" finished-at="2026-03-21T14:03:44 IST" duration-ms="34191">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@20b12f8a]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.Verifylogin()[pri:0, instance:testCases.TC002_LoginTest@54a67a45]" name="Verifylogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5f2f577]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.Verifylogin()[pri:0, instance:testCases.TC002_LoginTest@53e211ee]" name="Verifylogin" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.Verifylogin()[pri:0, instance:testCases.TC002_LoginTest@54a67a45]" name="Verifylogin" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.Verifylogin()[pri:0, instance:testCases.TC002_LoginTest@53e211ee]" name="Verifylogin" class="testCases.TC002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@20b12f8a]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5f2f577]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
+    <test started-at="2026-03-21T14:03:10 IST" name="ChromeTest" finished-at="2026-03-21T14:03:44 IST" duration-ms="34191">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@53e211ee]" started-at="2026-03-21T14:03:33 IST" name="Setup" finished-at="2026-03-21T14:03:35 IST" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verifylogin()[pri:0, instance:testCases.TC002_LoginTest@53e211ee]" started-at="2026-03-21T14:03:35 IST" name="Verifylogin" finished-at="2026-03-21T14:03:44 IST" duration-ms="8937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@53e211ee]" started-at="2026-03-21T14:03:44 IST" name="tearDown" finished-at="2026-03-21T14:03:44 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5f2f577]" started-at="2026-03-21T14:03:10 IST" name="Setup" finished-at="2026-03-21T14:03:12 IST" duration-ms="2145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5f2f577]" started-at="2026-03-21T14:03:12 IST" name="verify_account_registration" finished-at="2026-03-21T14:03:33 IST" duration-ms="20969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5f2f577]" started-at="2026-03-21T14:03:33 IST" name="tearDown" finished-at="2026-03-21T14:03:33 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

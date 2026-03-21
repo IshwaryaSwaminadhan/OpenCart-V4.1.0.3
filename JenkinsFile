@@ -1,0 +1,16 @@
+
+pipeline {
+  agent any 
+  stages {
+    stage('Checkout') {
+      steps {
+         git 'https://github.com/IshwaryaSwaminadhan/OpenCart-V4.1.0.3.git'
+      }
+    }
+    stage('Test') {
+      steps {
+        bat 'mvn verify'
+      }
+    }
+  }
+}

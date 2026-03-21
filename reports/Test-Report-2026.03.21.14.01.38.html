@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">opencart Functional Testing</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 8, 2026 02:13:15 pm</span></a>
+<a href="#"><span class="badge badge-primary">Mar 21, 2026 02:01:38 pm</span></a>
 </li>
 </ul>
 </div>
@@ -71,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,61 +79,63 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">Datadriven</a>
+<a class="dropdown-item" href="#">Master</a><a class="dropdown-item" href="#">Regression</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="skip" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
-          tag="Datadriven"
+          tag="Regression Master"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC003_LoginDDT</p>
+            <p class="name">testCases.TC001_AccountRegistrationTest</p>
             <p class="text-sm">
-              <span>2:13:24 pm</span> / <span>00:00:00:024</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>2:01:52 pm</span> / <span>00:00:00:076</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">testCases.TC003_LoginDDT</h5>
-<span class='badge badge-success'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-danger'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-default'>00:00:00:024</span>
+<h5 class="test-status text-fail">testCases.TC001_AccountRegistrationTest</h5>
+<span class='badge badge-success'>03.21.2026 2:01:52 pm</span>
+<span class='badge badge-danger'>03.21.2026 2:01:52 pm</span>
+<span class='badge badge-default'>00:00:00:076</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Datadriven</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Regression</span>
+<span class="badge badge-pill badge-default">Master</span></div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\screenshots\verify_account_registration_20260321020152.png' src="C:\Users\manikanta\eclipse-workspace\OpenCart-V4.1.0.3\screenshots\verify_account_registration_20260321020152.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>2:13:24 pm</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:52 pm</td>
         <td>
-          Verify_loginDDT got skipped
+          verify_account_registration got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:13:24 pm</td>
+        <td>2:01:52 pm</td>
         <td>
-          unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=145.0.7632.160)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8b90001f66d64761061f56e12d18ae7, get {url=http://localhost/opencart/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56146}, goog:processID: 11476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56146/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b8b90001f66d64761061f56e12d18ae7
+          null
         </td>
       </tr>
   </tbody>
@@ -141,55 +143,49 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
-          tag="Datadriven"
+          tag="Regression Master"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC003_LoginDDT</p>
+            <p class="name">testCases.TC001_AccountRegistrationTest</p>
             <p class="text-sm">
-              <span>2:13:24 pm</span> / <span>00:00:00:002</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>2:01:53 pm</span> / <span>00:00:00:001</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">testCases.TC003_LoginDDT</h5>
-<span class='badge badge-success'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-danger'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-default'>00:00:00:002</span>
+<h5 class="test-status text-fail">testCases.TC001_AccountRegistrationTest</h5>
+<span class='badge badge-success'>03.21.2026 2:01:53 pm</span>
+<span class='badge badge-danger'>03.21.2026 2:01:53 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Datadriven</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Regression</span>
+<span class="badge badge-pill badge-default">Master</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>2:13:24 pm</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:53 pm</td>
         <td>
-          Verify_loginDDT got skipped
+          verify_account_registration got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:13:24 pm</td>
+        <td>2:01:53 pm</td>
         <td>
-          unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=145.0.7632.160)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8b90001f66d64761061f56e12d18ae7, get {url=http://localhost/opencart/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56146}, goog:processID: 11476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56146/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b8b90001f66d64761061f56e12d18ae7
+          null
         </td>
       </tr>
   </tbody>
@@ -197,55 +193,55 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="3"
+        <li class="test-item"  status="fail" test-id="3"
           author=""
-          tag="Datadriven"
+          tag="Regression Master"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC003_LoginDDT</p>
+            <p class="name">testCases.TC001_AccountRegistrationTest</p>
             <p class="text-sm">
-              <span>2:13:24 pm</span> / <span>00:00:00:001</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>2:01:53 pm</span> / <span>00:00:00:003</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">testCases.TC003_LoginDDT</h5>
-<span class='badge badge-success'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-danger'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-fail">testCases.TC001_AccountRegistrationTest</h5>
+<span class='badge badge-success'>03.21.2026 2:01:53 pm</span>
+<span class='badge badge-danger'>03.21.2026 2:01:53 pm</span>
+<span class='badge badge-default'>00:00:00:003</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Datadriven</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Regression</span>
+<span class="badge badge-pill badge-default">Master</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>2:13:24 pm</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:01:53 pm</td>
         <td>
-          Verify_loginDDT got skipped
+          verify_account_registration got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:13:24 pm</td>
+        <td>2:01:53 pm</td>
         <td>
-          unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=145.0.7632.160)
+          Error communicating with the remote browser. It may have died.
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8b90001f66d64761061f56e12d18ae7, get {url=http://localhost/opencart/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56146}, goog:processID: 11476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56146/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b8b90001f66d64761061f56e12d18ae7
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e6c9d75-7633-4157-a520-a32ae4a824e5, screenshot []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12692, moz:profile: C:\Users\MANIKA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e6c9d75-7633-4157-a520-a32ae4a824e5
         </td>
       </tr>
   </tbody>
@@ -253,55 +249,49 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="4"
+        <li class="test-item"  status="fail" test-id="4"
           author=""
-          tag="Datadriven"
+          tag="Regression Master"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC003_LoginDDT</p>
+            <p class="name">testCases.TC001_AccountRegistrationTest</p>
             <p class="text-sm">
-              <span>2:13:24 pm</span> / <span>00:00:00:000</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>2:02:02 pm</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">testCases.TC003_LoginDDT</h5>
-<span class='badge badge-success'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-danger'>03.08.2026 2:13:24 pm</span>
+<h5 class="test-status text-fail">testCases.TC001_AccountRegistrationTest</h5>
+<span class='badge badge-success'>03.21.2026 2:02:02 pm</span>
+<span class='badge badge-danger'>03.21.2026 2:02:02 pm</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Datadriven</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Regression</span>
+<span class="badge badge-pill badge-default">Master</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>2:13:24 pm</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:02 pm</td>
         <td>
-          Verify_loginDDT got skipped
+          verify_account_registration got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:13:24 pm</td>
+        <td>2:02:02 pm</td>
         <td>
-          unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=145.0.7632.160)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8b90001f66d64761061f56e12d18ae7, get {url=http://localhost/opencart/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56146}, goog:processID: 11476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56146/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b8b90001f66d64761061f56e12d18ae7
+          null
         </td>
       </tr>
   </tbody>
@@ -309,55 +299,54 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </div>
           </div>
         </li>
-        <li class="test-item"  status="skip" test-id="5"
+        <li class="test-item"  status="fail" test-id="5"
           author=""
-          tag="Datadriven"
+          tag="Regression Master"
           device="">
           <div class="test-detail">
-            <p class="name">testCases.TC003_LoginDDT</p>
+            <p class="name">testCases.TC001_AccountRegistrationTest</p>
             <p class="text-sm">
-              <span>2:13:24 pm</span> / <span>00:00:00:001</span>
-              <span class="badge skip-bg log float-right">Skip</span>
+              <span>2:02:02 pm</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-skip">testCases.TC003_LoginDDT</h5>
-<span class='badge badge-success'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-danger'>03.08.2026 2:13:24 pm</span>
-<span class='badge badge-default'>00:00:00:001</span>
+<h5 class="test-status text-fail">testCases.TC001_AccountRegistrationTest</h5>
+<span class='badge badge-success'>03.21.2026 2:02:02 pm</span>
+<span class='badge badge-danger'>03.21.2026 2:02:02 pm</span>
+<span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Datadriven</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Regression</span>
+<span class="badge badge-pill badge-default">Master</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>2:13:24 pm</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:02:02 pm</td>
         <td>
-          Verify_loginDDT got skipped
+          verify_account_registration got failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>2:13:24 pm</td>
+        <td>2:02:02 pm</td>
         <td>
-          unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=145.0.7632.160)
+          Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8b90001f66d64761061f56e12d18ae7, get {url=http://localhost/opencart/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\MANIKA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56146}, goog:processID: 11476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56146/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b8b90001f66d64761061f56e12d18ae7
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12692, moz:profile: C:\Users\MANIKA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
         </td>
       </tr>
   </tbody>
@@ -378,22 +367,22 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-skip'>5</span>
+<span class='badge log badge-danger'>5</span>
 </span>
-<p class="name">Datadriven</p>
+<p class="name">Master</p>
 <p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>Datadriven</h4>
-<span status="skip" class='badge log badge-skip'>5 skipped</span>
+<h4>Master</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -404,39 +393,100 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>14:13:24 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:01:52 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>testCases.TC003_LoginDDT</a>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC001_AccountRegistrationTest</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>14:13:24 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:01:53 pm</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>testCases.TC003_LoginDDT</a>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC001_AccountRegistrationTest</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>14:13:24 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:01:53 pm</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>testCases.TC003_LoginDDT</a>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC001_AccountRegistrationTest</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>14:13:24 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:02:02 pm</td>
 <td>
-<a href="#" class="linked" test-id='4' id='4'>testCases.TC003_LoginDDT</a>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC001_AccountRegistrationTest</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>14:13:24 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:02:02 pm</td>
 <td>
-<a href="#" class="linked" test-id='5' id='5'>testCases.TC003_LoginDDT</a>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC001_AccountRegistrationTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">Regression</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Regression</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:01:52 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC001_AccountRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:01:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC001_AccountRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:01:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC001_AccountRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:02:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC001_AccountRegistrationTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:02:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC001_AccountRegistrationTest</a>
 </td>
 </tr>
 </tbody>
@@ -456,13 +506,13 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 8, 2026 02:13:15 pm</h3>
+<h3>Mar 21, 2026 02:01:38 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 8, 2026 02:13:25 pm</h3>
+<h3>Mar 21, 2026 02:02:02 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -474,7 +524,7 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>5</h3>
 </div></div>
 </div>
 </div>
@@ -495,8 +545,8 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
-<b>5</b> skipped, <b data-tooltip='0%'>0</b> others
+<small data-tooltip='100%'><b>5</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -515,8 +565,8 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>10</b> others
+<small data-tooltip='50%'><b>5</b> events failed,
+<b data-tooltip='%'>5</b> others
 </small>
 </div>
 </div>
@@ -532,7 +582,7 @@ Session ID: b8b90001f66d64761061f56e12d18ae7
 </div></div>
 <script>
 var timeline = {
-"testCases.TC003_LoginDDT":0.024,"testCases.TC003_LoginDDT":0.002,"testCases.TC003_LoginDDT":0.001,"testCases.TC003_LoginDDT":0,"testCases.TC003_LoginDDT":0.001
+"testCases.TC001_AccountRegistrationTest":0.076,"testCases.TC001_AccountRegistrationTest":0.001,"testCases.TC001_AccountRegistrationTest":0.003,"testCases.TC001_AccountRegistrationTest":0,"testCases.TC001_AccountRegistrationTest":0
 };
 </script>
 <div class="row">
@@ -542,10 +592,18 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>Datadriven</td>
-<td>0</td>
+<td>Master</td>
 <td>0</td>
 <td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Regression</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
 <td>0</td>
 <td>0%</td>
 </tr>
@@ -559,6 +617,62 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
 <tbody>
+<tr>
+<td>Application</td>
+<td>opencart</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>opencart</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>Sub Module</td>
+<td>Customers</td>
+</tr>
+<tr>
+<td>Sub Module</td>
+<td>Customers</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>manikanta</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>manikanta</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Firefox</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Edge</td>
+</tr>
 <tr>
 <td>Application</td>
 <td>opencart</td>
@@ -597,9 +711,9 @@ var timeline = {
 var statusGroup = {
 parentCount: 5,
 passParent: 0,
-failParent: 0,
+failParent: 5,
 warningParent: 0,
-skipParent: 5,
+skipParent: 0,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -614,9 +728,9 @@ skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 passEvents: 0,
-failEvents: 0,
+failEvents: 5,
 warningEvents: 0,
-skipEvents: 5,
+skipEvents: 0,
 infoEvents: 5
 };
 </script>        </div>
